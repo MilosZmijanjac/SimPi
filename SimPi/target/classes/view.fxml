@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.Controller">
+   <children>
+      <Group fx:id="group" layoutX="366.0" layoutY="89.0">
+         <children>
+            <Pane fx:id="pane" layoutX="-130.0" layoutY="-78.0" prefHeight="350.0" prefWidth="350.0" />
+         </children>
+      </Group>
+      <Label layoutX="20.0" layoutY="35.0" prefHeight="31.0" prefWidth="228.0" text="PI = 3.141592653589793" />
+      <ComboBox fx:id="option" layoutX="20.0" layoutY="76.0" prefHeight="26.0" prefWidth="205.0" />
+      <Spinner fx:id="spinner" layoutX="20.0" layoutY="115.0" prefHeight="26.0" prefWidth="205.0" />
+      <Button fx:id="button" layoutX="22.0" layoutY="155.0" mnemonicParsing="false" onAction="#onClickStart" prefHeight="45.0" prefWidth="205.0" text="START" />
+      <Label fx:id="myPI" layoutX="20.0" layoutY="217.0" prefHeight="45.0" prefWidth="205.0" />
+      <Label fx:id="valuesNo" layoutX="21.0" layoutY="262.0" prefHeight="51.0" prefWidth="205.0" />
+      <Label fx:id="warning" layoutX="24.0" layoutY="313.0" prefHeight="78.0" prefWidth="205.0" />
+   </children>
+</AnchorPane>
